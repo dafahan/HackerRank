@@ -1,0 +1,12 @@
+a = int(input())
+for tc in range(a):
+    s = input()
+    cek = False
+    res = ''.join(sorted(s))
+    if(res != s):
+        cek = True
+    if cek :
+        print("YES")
+    else :
+        print("NO")
+    
